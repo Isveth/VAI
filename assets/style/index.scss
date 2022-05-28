@@ -1,7 +1,171 @@
-/* Css de Daniel */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+/* ---------------- Css de Daniel ---------------- */
+
+.contenedor{
+    max-width: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+
+/* Header */
+.header{
+    background: linear-gradient(180deg, #021F49 0%, rgba(0, 69, 255, 0.2) 100%);
+    border-radius: 0px 0px 90px 0px;
+    height: 100vh;
+    .active{
+        background-color: black;
+    }
+
+    /* Navbar */
+    .flex-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 30px;
+        .img{
+            max-width: 105px;
+            img{
+                width: 100%;
+            }
+        }
+        ul{
+            list-style-type: none;
+            margin: auto 0;
+            padding: 0;
+            overflow: hidden;
+            height: 50px;
+            background-color: rgba(0, 32, 76, 1);
+            border-radius: 10px;
+            li{
+                float: left;
+                width: 150px;
+                a{
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 16px;
+                    text-decoration: none;
+                    &:hover {
+                        background-color: rgb(0, 71, 170);
+                      }
+                }
+                
+            }
+        }
+    }
+
+    /* Contenido */
+    .contenido{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 20px;
+        height: 100%;
+        .descripcion{
+            padding-top: 30px;
+            width: 50%;
+            height: 70%;
+            .titulo{
+                font-size: 60px;
+                font-weight: 700;
+            }
+            .registro{
+                margin: 20px 0;
+                a{
+                    text-align: center;
+                    display: block;
+                    background: #0045FF;
+                    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.23);
+                    border-radius: 20px;
+                    padding: 8px 25px;
+                    width: 180px;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            .login{
+                margin: 20px 0;
+                a{
+                    text-align: center;
+                    display: block;
+                    background: white;
+                    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.23);
+                    border-radius: 20px;
+                    padding: 8px 25px;
+                    width: 180px;
+                    text-decoration: none;
+                    color: #0045FF;
+                }
+            }
+        }
+        .logo{
+            width: 40%;
+            padding: 30px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+
+
+/* Nosotros */
+.nosotros{
+    .contenido{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
+        .descripcion{
+            width: 60%;
+            display: flex;
+            align-items: center;
+            .centrar{
+                .titulo{
+                    color: rgba(0, 0, 0, 1);
+                    font-size: 32px;
+                    width: 100%;
+                }
+                .texto{
+                    font-size: 18px;
+                    font-weight: 300;
+                    width: 100%;
+                    line-height: 30px;
+                    margin: 50px 0 ;
+                }
+                .mas-informacion{
+                    width: 100%;
+                    a{
+                        text-align: center;
+                        display: block;
+                        background: rgba(0, 32, 76, 1);
+                        box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.23);
+                        border-radius: 20px;
+                        padding: 8px 25px;
+                        width: 180px;
+                        text-decoration: none;
+                        color: white;
+                        &:hover{
+                            background-color:rgb(2, 44, 103) ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
 
-
-/* Css de Victoria */
+/* ---------------- Css de Victoria ---------------- */

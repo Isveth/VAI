@@ -1,3 +1,199 @@
-/* Css de Daniel */
-/* Css de Victoria */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ---------------- Css de Daniel ---------------- */
+.contenedor {
+  max-width: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* Header */
+.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#021F49), to(rgba(0, 69, 255, 0.2)));
+  background: linear-gradient(180deg, #021F49 0%, rgba(0, 69, 255, 0.2) 100%);
+  border-radius: 0px 0px 90px 0px;
+  height: 80vh;
+  /* Navbar */
+  /* Contenido */
+}
+
+.header .active {
+  background-color: black;
+}
+
+.header .flex-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.header .flex-nav .img {
+  max-width: 105px;
+}
+
+.header .flex-nav .img img {
+  width: 100%;
+}
+
+.header .flex-nav ul {
+  list-style-type: none;
+  margin: auto 0;
+  padding: 0;
+  overflow: hidden;
+  height: 50px;
+  background-color: #00204c;
+  border-radius: 10px;
+}
+
+.header .flex-nav ul li {
+  float: left;
+  width: 150px;
+}
+
+.header .flex-nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.header .flex-nav ul li a:hover {
+  background-color: #0047aa;
+}
+
+.header .contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+  height: 100%;
+}
+
+.header .contenido .descripcion {
+  padding-top: 30px;
+  width: 50%;
+  height: 70%;
+}
+
+.header .contenido .descripcion .titulo {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.header .contenido .descripcion .registro {
+  margin: 20px 0;
+}
+
+.header .contenido .descripcion .registro a {
+  text-align: center;
+  display: block;
+  background: #0045FF;
+  -webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.23);
+          box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  padding: 8px 25px;
+  width: 180px;
+  text-decoration: none;
+  color: white;
+}
+
+.header .contenido .descripcion .login {
+  margin: 20px 0;
+}
+
+.header .contenido .descripcion .login a {
+  text-align: center;
+  display: block;
+  background: white;
+  -webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.23);
+          box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  padding: 8px 25px;
+  width: 180px;
+  text-decoration: none;
+  color: #0045FF;
+}
+
+.header .contenido .logo {
+  width: 40%;
+  padding: 30px;
+}
+
+.header .contenido .logo img {
+  width: 100%;
+}
+
+/* Nosotros */
+.nosotros .contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 0;
+}
+
+.nosotros .contenido .descripcion {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nosotros .contenido .descripcion .centrar .titulo {
+  color: black;
+  font-size: 32px;
+  width: 100%;
+}
+
+.nosotros .contenido .descripcion .centrar .texto {
+  font-size: 18px;
+  font-weight: 300;
+  width: 100%;
+  line-height: 30px;
+  margin: 50px 0;
+}
+
+.nosotros .contenido .descripcion .centrar .mas-informacion {
+  width: 100%;
+}
+
+.nosotros .contenido .descripcion .centrar .mas-informacion a {
+  text-align: center;
+  display: block;
+  background: #00204c;
+  -webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.23);
+          box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  padding: 8px 25px;
+  width: 180px;
+  text-decoration: none;
+  color: white;
+}
+
+.nosotros .contenido .descripcion .centrar .mas-informacion a:hover {
+  background-color: #022c67;
+}
+
+/* ---------------- Css de Victoria ---------------- */
 /*# sourceMappingURL=index.css.map */
