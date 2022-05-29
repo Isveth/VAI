@@ -22,6 +22,7 @@
   background: linear-gradient(180deg, #021F49 0%, rgba(0, 69, 255, 0.2) 100%);
   border-radius: 0px 0px 90px 0px;
   height: 80vh;
+  width: 100%;
   /* Navbar */
   /* Contenido */
 }
@@ -260,9 +261,42 @@
   font-weight: 600;
   font-size: 20px;
   color: #021F49;
+  -webkit-transition: linear .2s;
+  transition: linear .2s;
 }
 
 .services .img .card .capa img {
   margin: 0 20px;
+}
+
+.services .img .card:hover .capa {
+  height: 100%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* Footer */
+.footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 32, 76, 0.75)), to(#00204C));
+  background: linear-gradient(180deg, rgba(0, 32, 76, 0.75) 0%, #00204C 100%);
+}
+
+.tyc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.tyc h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
 }
 /*# sourceMappingURL=index.css.map */

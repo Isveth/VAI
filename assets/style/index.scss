@@ -28,6 +28,7 @@
     background: linear-gradient(180deg, #021F49 0%, rgba(0, 69, 255, 0.2) 100%);
     border-radius: 0px 0px 90px 0px;
     height: 80vh;
+    width: 100%;
     .active{
         background-color: black;
     }
@@ -221,12 +222,42 @@
                 font-weight: 600;
                 font-size: 20px;
                 color: #021F49;
+                transition: linear .2s;
                 img{
                     margin: 0 20px;
                 }
 
             }
+            &:hover{
+                .capa{
+                    height: 100%;
+                    border-radius: 10px 10px 10px 10px;
+                }
+            }
         }
     }
 
+ }
+
+
+
+
+ /* Footer */
+ .footer{
+    background: linear-gradient(180deg, rgba(0, 32, 76, 0.75) 0%, #00204C 100%);
+ }
+
+ .tyc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    h3{
+        font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    }
  }
