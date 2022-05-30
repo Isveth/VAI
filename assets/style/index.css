@@ -21,7 +21,7 @@
   background: -webkit-gradient(linear, left top, left bottom, from(#021F49), to(rgba(0, 69, 255, 0.2)));
   background: linear-gradient(180deg, #021F49 0%, rgba(0, 69, 255, 0.2) 100%);
   border-radius: 0px 0px 90px 0px;
-  height: 80vh;
+  height: 650px;
   /* Navbar */
   /* Contenido */
 }
@@ -95,8 +95,16 @@
 }
 
 .header .contenido .descripcion .titulo {
+  font-family: 'Poppins';
   font-size: 60px;
   font-weight: 700;
+  line-height: 80px;
+  /* or 200% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
 }
 
 .header .contenido .descripcion .registro {
