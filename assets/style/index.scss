@@ -221,6 +221,7 @@
 	
 		.card{
 			position: relative;
+			width: 30%;
 			.img-card{
 				width: 100%;
 				height: 100%;
@@ -236,7 +237,7 @@
 				display: flex;
 				align-items: center;
 				font-weight: 600;
-				font-size: 20px;
+				font-size: 16px;
 				color: #021F49;
 				transition: linear .2s;
 				img{
@@ -501,6 +502,7 @@ footer{
 			flex-direction: column;
 			.card{
 				margin: 10px 0;
+				width: 100%;
 			}
 		}
 	}
