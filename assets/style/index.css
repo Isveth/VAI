@@ -552,7 +552,9 @@ footer .end {
         -ms-flex-direction: column;
             flex-direction: column;
     position: fixed;
-    left: 0;
+    left: 100%;
+    -webkit-transition: left .3s;
+    transition: left .3s;
     padding: 20px 0;
     width: 100%;
     background-color: #000000de;
@@ -566,6 +568,9 @@ footer .end {
     display: block;
     color: white;
     font-size: 35px;
+  }
+  .Head nav .nav-visible {
+    left: 0;
   }
   .Head .content {
     margin-top: 20%;

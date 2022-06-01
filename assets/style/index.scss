@@ -438,7 +438,8 @@ footer{
 				flex-direction: column;
 				//display: none;
 				position: fixed;
-				left: 0;
+				left: 100%;
+				transition: left .3s;
 				padding: 20px 0;
 				width: 100%;
 				background-color: #000000de;
@@ -450,6 +451,9 @@ footer{
 				display: block;
 				color: white;
 				font-size: 35px;
+			}
+			.nav-visible{
+				left: 0;
 			}
 		}
 
