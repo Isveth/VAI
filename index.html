@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>VAI</title>
 	<link rel="stylesheet" type="text/css" href="assets/style/index.css">
 
@@ -8,6 +11,7 @@
   	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   	<link rel="stylesheet" href="assets/style/index.css" />
+	<script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous" ></script>
 
 </head>
 <body>
@@ -15,7 +19,7 @@
 	<section class="Head" id="ini">
 		<nav>
 			<a href="#ini"><img src="assets/img/Logo.svg" alt="" class="logo"></a>
-			<ul>
+			<ul class="nav-menu">
 
 				<li><a href="#ini">Inicio</a></li>
 				<li><a href="#Nosotros">Nosotros</a></li>
@@ -23,55 +27,85 @@
 				<li><a href="#Contacto">Contáctanos</a></li>
 
 			</ul>
+			<div class="toggle-menu">
+				<i class="fas fa-bars"></i>
+			</div>
 		</nav>
 
-		<div class="content">
-			<h3>Nunca fue tán</h3>
-			<h1>FÁCIL LLEGAR</h1>
-			<h3>a la U.</h3>
-
-			<div class="SignIn">
-				<button class="register">¡Regístrate aquí!</button>
+		<div class="contenedor">
+			<div class="content">
+				<div class="description">
+					<h3>Nunca fue tán</h3>
+					<h2>FÁCIL LLEGAR</h2>
+					<h3>a la U.</h3>
+	
+					<div class="SignIn">
+						<button class="register">¡Regístrate aquí!</button>
+					</div>
+	
+					<div class="LogIn">
+						<button class="logIn">Inicia sesión</button>
+					</div>
+				</div>
+	
 			</div>
-
-			<div class="LogIn">
-				<button class="logIn">Inicia sesión</button>
-			</div>
-
 		</div>
 	</section>
 
 
 	<!----Nosotros---->
 	<section class="Nosotros" id="Nosotros">
-		<div class="main">
-			<img style="padding-left:8% ;" src="/assets/img/Quienes.png">
-			<div class="about-text">
-				<h2>¿QUIENES SOMOS?</h2>
-				<h6>Ándres y Roberto te sonríen desde aquí :)</h6>
-				<p>Somos un grupo de estudiantes que ha decidido garantizar seguridad y satisfacción a los usuarios del servicio "Wheels"...
-				</p>
-				<button type="button">Seguir leyendo</button>
+		<div class="contenedor">
+			<div class="main">
+				<img  src="/assets/img/Quienes.png">
+				<div class="about-text">
+					<h2>¿QUIENES SOMOS?</h2>
+					<h6>Ándres y Roberto te sonríen desde aquí :)</h6>
+					<p>Somos un grupo de estudiantes que ha decidido garantizar seguridad y satisfacción a los usuarios del servicio "Wheels"...
+					</p>
+					<button type="button">Seguir leyendo</button>
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-----service section start----------->
-	<div class="service" id="service">
-		<div class="title">
-			<h2>NUESTROS SERVICIOS</h2>
-			<H6>Ofrecemos el mejor servicio de transporte para la comunidad universitaria</H6>
+	<section class="service" id="service">
+		<div class="contenedor">
+			<div class="title">
+				<h2>NUESTROS SERVICIOS</h2>
+				<H6>Ofrecemos el mejor servicio de transporte para la comunidad universitaria</H6>
+			</div>
+	
+			<div class="box">
+				<a href="#" class="card">
+					<img src="assets/img/Psasajero simple.png" alt="" class="img-card">
+					<div class="capa">
+						<img src="assets/img/icons/gear.png" alt="Pasajeros VAI">
+						Para pasajeros
+					</div>
+				</a>
+				<a href="#" class="card">
+					<img src="assets/img/Conductor simple.png" alt="" class="conductor img-card">
+					<div class="capa">
+						<img src="assets/img/icons/volante.png" alt="Pasajeros VAI">
+						Para Conductores
+					</div>
+				</a>
+				<a href="#" class="card">
+					<img src="assets/img/club simple.png" alt="" class="club img-card">	
+					<div class="capa">
+						<img src="assets/img/icons/persona.png" alt="Pasajeros VAI">
+						VAI Club
+					</div>
+				</a>
+				
+			</div>
 		</div>
-
-		<div class="box">
-			<img src="/assets/img/Pasajero.png" alt="" class="pasajero">
-			<img src="/assets/img/Conductores.svg" alt="" class="conductor">
-			<img src="/assets/img/VAI Club.png" alt="" class="club">	
-		</div>
-	</div>
+	</section>
 
 	<!------Contactanos------>
-	<div class="Contacto" id="Contacto">
+	<section class="Contacto" id="Contacto">
 		<h2>¡ESCRÍBENOS!</h2>
 		<h3>Tu opinión es muy valiosa para nosotros, por eso déjanos tu mensaje, te responderemos lo más pronto posible</h3>
 		<ul>
@@ -80,7 +114,7 @@
 			<li class="m"><textarea type="text" name="Mensaje" id="mensaje" placeholder="¿Qué te gustaria compartir con nosotros?"></textarea></li>
 		</ul>
 		<a class="enviar" href="#">Enviar</a>
-	</div>
+	</section>
 
 	<!------footer-------->
 	<footer>
