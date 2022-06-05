@@ -442,8 +442,7 @@
 }
 
 /* Contacto */
-.Contacto {
-  width: 90%;
+.Contacto .centrarContacto {
   height: 600px;
   background: #ffffff;
   display: -webkit-box;
@@ -461,6 +460,7 @@
           justify-content: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0 auto;
   margin-top: 30px;
 }
 
