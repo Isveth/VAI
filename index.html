@@ -1,146 +1,148 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style/index.css">
-    <title>VAI</title>
+	<title>VAI</title>
+	<link rel="stylesheet" type="text/css" href="assets/style/index.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  	<link rel="stylesheet" href="assets/style/index.css" />
+	<script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous" ></script>
+	<script defer src="assets/js/javaScript.js"></script>
+
 </head>
 <body>
-   
-    <!-- Header -->
-    <section class="header">
-        <div class="contenedor">
-            <!-- Navbar -->
-            <nav class="flex-nav">
-                <div class="img">
-                    <a href="index.html">
-                        <img src="./assets/img/LOGO negro.png" alt="">
-                    </a>
-                </div>
-                <ul >
-                    <li class="active"><a href="#">Inicio</a></li>
-                    <li class=""><a href="#">Nosotros</a></li>
-                    <li class=""><a href="#">Servicios</a></li>
-                    <li class=""><a href="#">Contáctanos</a></li>
-                </ul>
-            </nav>
+	<!----Contenedor inicio---->
+	<section class="Head" id="ini">
+		<nav>
+			<a href="#ini"><img src="assets/img/Logo.svg" alt="" class="logo"></a>
+			<ul class="nav-menu" id="nav-menu">
 
-            <!-- Contenido -->
-            <div class="contenido">
-                <div class="descripcion">
-                    <div class="titulo">
-                        Nunca fue tan <br>FÁCIL LLEGAR <br>a la U.
-                    </div>
+				<li><a class="nlinks"  href="#ini">Inicio</a></li>
+				<li><a  class="nlinks" href="#Nosotros">Nosotros</a></li>
+				<li><a class="nlinks"  href="#service">Servicios</a></li>
+				<li><a  class="nlinks" href="#Contacto">Contáctanos</a></li>
 
-                    <div class="registro">
-                        <a href="#"  class="">
-                            Regístrate aquí
-                        </a>
-                    </div>
-                    <div class="login">
-                        <a href="#" class="">
-                            Inicia Sesión
-                        </a>
-                    </div>
-                    
-                </div>
-                <div class="logo">
-                    <img src="./assets/img/logoHeader.png" alt="Logo VAI">
-                </div>
-            </div>
-        </div>
+			</ul>
+			<div class="toggle-menu" id="toggle">
+				<i class="fas fa-bars"></i>
+			</div>
+		</nav>
 
-        
-    </section>
-
-    <!-- Nosotros -->
-    <section class="nosotros">
-        <div class="contenedor">
-            <div class="contenido">
-                <div class="imagen">
-                    <img src="./assets/img/nosotros.png" alt="">
-                </div>
-                <div class="descripcion">
-                    <div class="centrar">
-                        <div class="titulo">Sobre nosotros</div>
-                        <div class="texto">
-                            Somos personas que quieren un mundo mejor,  mas sano, mas limpio, mas empatico, 
-                            en busca de paz y amor hemos venido a transformar estas tierras. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Neque nesciunt sapiente illo a commodi sit dignissimos tempora deleniti ad ipsa illum asperiores 
-                            tenetur iste dicta consequuntur labore cumque, facilis ex?
-                        </div>
-                        <div class="mas-informacion">
-                            <a href="#">
-                                Más información
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+		<div class="contenedor">
+			<div class="content">
+				<div class="description">
+					<h3>Nunca fue tán</h3>
+					<h2>FÁCIL LLEGAR</h2>
+					<h3>a la U.</h3>
+	
+					<div class="SignIn">
+						<button class="register">¡Regístrate aquí!</button>
+					</div>
+	
+					<div class="LogIn">
+						<button class="logIn">Inicia sesión</button>
+					</div>
+				</div>
+	
+			</div>
+		</div>
+	</section>
 
 
-    <!-- Servicios -->
-    <section class="services">
-        <div class="contenedor">
-            <h2 class="title" id="title">SERVICIOS</h2>
-            <h3 class="text" id="text">Ofrecemos el mejor servicio de transporte <br> para la comunidad universitaria</h3>
-            <div class="img" id="img">
-                <a href="#" class="card">
-                    <img class="img-card" src="./assets/img/pasajero-l.png" alt="Pasajero VAI" id="pasajero">
-                    <div class="capa">
-                        <img src="./assets/img/iconos/persona.png" alt="Pasajeros VAI">
-                        Para pasajeros
-                    </div>
-                </a>
-                <a href="#"  class="card">
-                    <img class="img-card"  src="./assets/img/conductor-l.png" alt="Conductores VAI" id="conductor">
-                    <div class="capa">
-                        <img src="./assets/img/iconos/volante.png" alt="Pasajeros VAI">
-                        Para pasajeros
-                    </div>
-                </a>
-                <a  href="#" class="card">
-                    <img class="img-card"  src="./assets/img/vaiClub-l.png" alt="Club VAI" id="club">
-                    <div class="capa">
-                        <img src="./assets/img/iconos/gear.png" alt="Pasajeros VAI">
-                        Para pasajeros
-                    </div>
-                </a>
-                
-                
-                
-            </div>
-        </div>
-    </section>
-    <section class="footer">
+	<!----Nosotros---->
+	<section class="Nosotros" id="Nosotros">
+		<div class="contenedor">
+			<div class="main">
+				<img  src="/assets/img/Quienes.png">
+				<div class="about-text">
+					<h2>¿QUIENES SOMOS?</h2>
+					<h6>Ándres y Roberto te sonríen desde aquí :)</h6>
+					<p>Somos un grupo de estudiantes que ha decidido garantizar seguridad y satisfacción a los usuarios del servicio "Wheels"...
+					</p>
+					<button type="button">Seguir leyendo</button>
+				</div>
+			</div>
+		</div>
+	</section>
 
-        <div class="contenedor">
-            <div class="contacto">
-                <form id="contacto">
-                    <input type="text" name="nombre"/>
-                    <input type="text" name="nombre"/>
-                    <input type="text" name="nombre"/>
-                    <button class="enviar" name="enviar">Enviar</button>
-                </form>
-            </div>
-    
-            <div class="entradas"></div>
-    
-            <div class="redes"></div>
-        </div>
+	<!-----service section start----------->
+	<section class="service" id="service">
+		<div class="contenedor">
+			<div class="title">
+				<h2>NUESTROS SERVICIOS</h2>
+				<H6>Ofrecemos el mejor servicio de transporte para la comunidad universitaria</H6>
+			</div>
+	
+			<div class="box">
+				<a href="#" class="card">
+					<img src="assets/img/Psasajero simple.png" alt="" class="img-card">
+					<div class="capa">
+						<img src="assets/img/icons/gear.png" alt="Pasajeros VAI">
+						Para pasajeros
+					</div>
+				</a>
+				<a href="#" class="card">
+					<img src="assets/img/Conductor simple.png" alt="" class="conductor img-card">
+					<div class="capa">
+						<img src="assets/img/icons/volante.png" alt="Pasajeros VAI">
+						Para Conductores
+					</div>
+				</a>
+				<a href="#" class="card">
+					<img src="assets/img/club simple.png" alt="" class="club img-card">	
+					<div class="capa">
+						<img src="assets/img/icons/persona.png" alt="Pasajeros VAI">
+						VAI Club
+					</div>
+				</a>
+				
+			</div>
+		</div>
+	</section>
 
-    </section>
-    <section class="tyc">
-        <div class="contenedor">
-            <h3 id="tyc">Terminos y condiciones</h3>
-            <h3 id="copy">Copyright VAI © 2022. Todos los derechos reservados.</h3>
-        </div>
-    </section>
+	<!------Contactanos------>
+	<section class="Contacto" id="Contacto">
+		<h2>¡ESCRÍBENOS!</h2>
+		<h3>Tu opinión es muy valiosa para nosotros, por eso déjanos tu mensaje, te responderemos lo más pronto posible</h3>
+		<ul>
+			<li class="n"><input type="text" name="Nombre" id="nombre" placeholder="Tu nombre"></li>
+			<li class="e"><input type="email" name="Email" id="email" placeholder="Tu email"></li>
+			<li class="m"><textarea type="text" name="Mensaje" id="mensaje" placeholder="¿Qué te gustaria compartir con nosotros?"></textarea></li>
+		</ul>
+		<a class="enviar" href="#">Enviar</a>
 
-    <script src="./assets/js/javaScript.js"></script>
+	</section>
+
+	<!------footervvv-------->
+	<footer>
+		<a style="text-decoration: none;" href="#ini"><p>VAI</p></a>
+		<nav>
+			<ul>
+
+				<li><a href="#ini">Inicio</a></li>
+				<li><a href="#Nosotros">¿Quienes somos?</a></li>
+				<li><a href="#Nosotros">Nuestro compromiso ambiental</a></li>
+				<li><a href="#Nosotros">Diversidad</a></li>
+				<li><a href="#service">Servicios</a></li>
+				<li><a href="#service">Haz parte del club VAI</a></li>
+				<li><a href="#Contacto">Contáctanos</a></li>
+
+			</ul>
+		</nav>
+
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">Políticas de privacidad</p>
+		<p class="end">Términos y condiciones de uso</p>
+		<p class="end">Copyright VAI © 2022. Todos los derechos reservados.</p>
+	</footer>
 </body>
 </html>
